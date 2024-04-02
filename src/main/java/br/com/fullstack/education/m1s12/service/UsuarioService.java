@@ -1,7 +1,7 @@
-package br.com.fullstack.education.m1s10.service;
+package br.com.fullstack.education.m1s12.service;
 
-import br.com.fullstack.education.m1s10.dto.UsuarioFiltro;
-import br.com.fullstack.education.m1s10.entity.UsuarioEntity;
+import br.com.fullstack.education.m1s12.dto.UsuarioFiltro;
+import br.com.fullstack.education.m1s12.entity.UsuarioEntity;
 
 import java.util.List;
 

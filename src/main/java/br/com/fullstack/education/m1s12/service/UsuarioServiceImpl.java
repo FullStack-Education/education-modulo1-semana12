@@ -1,10 +1,10 @@
-package br.com.fullstack.education.m1s10.service;
+package br.com.fullstack.education.m1s12.service;
 
-import br.com.fullstack.education.m1s10.dto.UsuarioFiltro;
-import br.com.fullstack.education.m1s10.entity.UsuarioEntity;
-import br.com.fullstack.education.m1s10.exception.error.UsuarioByIdNotFoundException;
-import br.com.fullstack.education.m1s10.exception.error.UsuarioByLoginNotFoundException;
-import br.com.fullstack.education.m1s10.repository.UsuarioRepository;
+import br.com.fullstack.education.m1s12.dto.UsuarioFiltro;
+import br.com.fullstack.education.m1s12.entity.UsuarioEntity;
+import br.com.fullstack.education.m1s12.exception.error.UsuarioByIdNotFoundException;
+import br.com.fullstack.education.m1s12.exception.error.UsuarioByLoginNotFoundException;
+import br.com.fullstack.education.m1s12.repository.UsuarioRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 

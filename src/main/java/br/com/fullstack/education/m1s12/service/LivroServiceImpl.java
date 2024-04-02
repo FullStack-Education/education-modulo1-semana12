@@ -1,8 +1,8 @@
-package br.com.fullstack.education.m1s10.service;
+package br.com.fullstack.education.m1s12.service;
 
-import br.com.fullstack.education.m1s10.entity.LivroEntity;
-import br.com.fullstack.education.m1s10.exception.error.LivroByIdNotFoundException;
-import br.com.fullstack.education.m1s10.repository.LivroRepository;
+import br.com.fullstack.education.m1s12.entity.LivroEntity;
+import br.com.fullstack.education.m1s12.exception.error.LivroByIdNotFoundException;
+import br.com.fullstack.education.m1s12.repository.LivroRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

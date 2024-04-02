@@ -1,8 +1,8 @@
-package br.com.fullstack.education.m1s10.controller;
+package br.com.fullstack.education.m1s12.controller;
 
-import br.com.fullstack.education.m1s10.dto.UsuarioFiltro;
-import br.com.fullstack.education.m1s10.entity.UsuarioEntity;
-import br.com.fullstack.education.m1s10.service.UsuarioService;
+import br.com.fullstack.education.m1s12.dto.UsuarioFiltro;
+import br.com.fullstack.education.m1s12.entity.UsuarioEntity;
+import br.com.fullstack.education.m1s12.service.UsuarioService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

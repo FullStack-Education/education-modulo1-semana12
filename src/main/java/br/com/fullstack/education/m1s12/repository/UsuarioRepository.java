@@ -1,6 +1,6 @@
-package br.com.fullstack.education.m1s10.repository;
+package br.com.fullstack.education.m1s12.repository;
 
-import br.com.fullstack.education.m1s10.entity.UsuarioEntity;
+import br.com.fullstack.education.m1s12.entity.UsuarioEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

@@ -1,6 +1,6 @@
-package br.com.fullstack.education.m1s10.exception;
+package br.com.fullstack.education.m1s12.exception;
 
-import br.com.fullstack.education.m1s10.exception.error.NotFoundException;
+import br.com.fullstack.education.m1s12.exception.error.NotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

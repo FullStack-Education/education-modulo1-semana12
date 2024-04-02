@@ -1,4 +1,4 @@
-package br.com.fullstack.education.m1s10.entity;
+package br.com.fullstack.education.m1s12.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

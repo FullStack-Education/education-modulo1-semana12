@@ -1,4 +1,4 @@
-package br.com.fullstack.education.m1s10.dto;
+package br.com.fullstack.education.m1s12.dto;
 
 import lombok.Data;
 

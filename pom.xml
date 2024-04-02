@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.fullstack.education</groupId>
-	<artifactId>modulo1-semana10</artifactId>
+	<artifactId>modulo1-semana12</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>modulo1-semana10</name>
-	<description>Práticas da semana 10</description>
+	<name>modulo1-semana12</name>
+	<description>Práticas da semana 12</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
