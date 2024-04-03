@@ -1,5 +1,6 @@
 package br.com.fullstack.education.m1s12.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -15,8 +16,10 @@ public class UsuarioEntity implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @JsonIgnore
     private LocalDateTime criadoEm = LocalDateTime.now();
 
+    @JsonIgnore
     private LocalDateTime alteradoEm = LocalDateTime.now();
 
     private String nome;
