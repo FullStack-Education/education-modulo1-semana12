@@ -7,6 +7,6 @@ FROM openjdk:17-ea-10-jdk-slim
 WORKDIR /app
 COPY --from=build ./app/target/*.jar app.jar
 
-ENTRYPOINT ["java","-Dspring.profiles.active=local","-jar","/app/app.jar"]
+ENTRYPOINT ["java","-Dserver.port=80","-jar","/app/app.jar"]
 
-EXPOSE 8080
+EXPOSE 80
