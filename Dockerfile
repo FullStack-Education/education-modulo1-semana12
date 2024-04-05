@@ -1,5 +1,6 @@
 FROM openjdk:17-jdk-slim
 
+WORKDIR java/proj
 RUN ls -larth
 RUN pwd
 #RUN ./mvnw clean install
