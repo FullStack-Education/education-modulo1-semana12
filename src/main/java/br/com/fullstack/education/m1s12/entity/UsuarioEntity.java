@@ -28,4 +28,6 @@ public class UsuarioEntity implements Serializable {
 
     private String senha;
 
+    private Integer qtdLivrosEmprestados;
+
 }

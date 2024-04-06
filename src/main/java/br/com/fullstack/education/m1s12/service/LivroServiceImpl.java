@@ -79,4 +79,15 @@ public class LivroServiceImpl implements LivroService {
         repository.delete(entity);
         log.info("Excluindo livro com id ({}) -> Excluído com sucesso", id);
     }
+
+    @Override
+    public LivroEntity emprestar(LivroEntity livro) {
+        Integer vezes = livro.getVezesEmprestado();
+        if (vezes == null) vezes = 0;
+
+        vezes++;
+        livro.setVezesEmprestado(vezes);
+
+        return repository.save(livro);
+    }
 }

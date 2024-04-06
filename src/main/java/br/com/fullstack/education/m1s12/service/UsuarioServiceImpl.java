@@ -1,6 +1,7 @@
 package br.com.fullstack.education.m1s12.service;
 
 import br.com.fullstack.education.m1s12.dto.UsuarioFiltro;
+import br.com.fullstack.education.m1s12.entity.LivroEntity;
 import br.com.fullstack.education.m1s12.entity.UsuarioEntity;
 import br.com.fullstack.education.m1s12.exception.error.UsuarioByIdNotFoundException;
 import br.com.fullstack.education.m1s12.exception.error.UsuarioByLoginNotFoundException;
@@ -109,5 +110,16 @@ public class UsuarioServiceImpl implements UsuarioService {
 
         repository.delete(entity);
         log.info("Excluindo usuário com id ({}) -> Excluído com sucesso", id);
+    }
+
+    @Override
+    public UsuarioEntity emprestar(UsuarioEntity usuario) {
+        Integer qtd = usuario.getQtdLivrosEmprestados();
+        if (qtd == null) qtd = 0;
+
+        qtd++;
+        usuario.setQtdLivrosEmprestados(qtd);
+
+        return repository.save(usuario);
     }
 }

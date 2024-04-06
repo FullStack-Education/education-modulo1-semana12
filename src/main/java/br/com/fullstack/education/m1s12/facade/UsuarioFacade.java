@@ -1,11 +1,11 @@
-package br.com.fullstack.education.m1s12.service;
+package br.com.fullstack.education.m1s12.facade;
 
 import br.com.fullstack.education.m1s12.dto.UsuarioFiltro;
 import br.com.fullstack.education.m1s12.entity.UsuarioEntity;
 
 import java.util.List;
 
-public interface UsuarioService {
+public interface UsuarioFacade {
 
     List<UsuarioEntity> buscarTodos(UsuarioFiltro filtro);
 
@@ -19,5 +19,5 @@ public interface UsuarioService {
 
     void apagar(Long id) throws Exception;
 
-    UsuarioEntity emprestar(UsuarioEntity usuario);
+    UsuarioEntity emprestar(Long id, Long livroId) throws Exception;
 }
