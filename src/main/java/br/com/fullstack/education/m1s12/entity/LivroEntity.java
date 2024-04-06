@@ -45,4 +45,6 @@ public class LivroEntity implements Serializable {
     @JsonDeserialize(using = LocalDateDeserializer.class)
     private LocalDate dataPublicacao;
 
+    private Integer vezesEmprestado;
+
 }

@@ -1,10 +1,10 @@
-package br.com.fullstack.education.m1s12.service;
+package br.com.fullstack.education.m1s12.facade;
 
 import br.com.fullstack.education.m1s12.entity.LivroEntity;
 
 import java.util.List;
 
-public interface LivroService {
+public interface LivroFacade {
 
     List<LivroEntity> buscarTodos();
 
@@ -16,5 +16,5 @@ public interface LivroService {
 
     void apagar(Long id) throws Exception;
 
-    LivroEntity emprestar(LivroEntity livro);
+    LivroEntity emprestar(Long id, Long usuarioId) throws Exception;
 }
